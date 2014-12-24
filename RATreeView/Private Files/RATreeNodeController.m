@@ -139,7 +139,7 @@
 
 - (NSArray *)childControllers
 {
-    return [self.mutablechildControllers copy];
+    return self.mutablechildControllers;
 }
 
 - (NSInteger)index
